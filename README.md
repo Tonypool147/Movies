@@ -1,8 +1,14 @@
-An API that allows users to query and consume values from a database.  .
-Dataset Url: https://www.kaggle.com/datasets/disham993/9000-movies-dataset
+An API that allows users to query and consume values from a SQL database - provided by MoviesDB.bak and transalated from a csv file .
+from the dataset at: https://www.kaggle.com/datasets/disham993/9000-movies-dataset
 
-I have concentrated on creating a good APi rather than creating UI's for the results. Testing was carried
-out using Postman. Swagger has been incorporoated so you can see the API methods in details via the browser
+I have concentrated on creating a good APi rather than creating UI's for the results.
+
+The datastore for the app is a SQL database - which can be created by restoring the sql backup file MoviesDB.bak 
+It was transalated from the csv file provided by the dataset at: https://www.kaggle.com/datasets/disham993/9000-movies-dataset
+
+The API uses Entity Framework for mapping the underlaying data to the application Entities 
+
+Testing was carried out using Postman. Swagger has been incorporoated so you can see the API methods in details via the browser
 **[https://localhost:7266/swagger]**
 
 I have use Log4net for server-side logging. This is highly effective and easy to use and is the 
