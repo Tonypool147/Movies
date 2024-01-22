@@ -5,6 +5,8 @@ I have concentrated on creating a good APi rather than creating UI's for the res
 
 The datastore for the app is a SQL database - which can be created by restoring the sql backup file MoviesDB.bak 
 It was transalated from the csv file provided by the dataset at: https://www.kaggle.com/datasets/disham993/9000-movies-dataset
+*** You will need to update the database connection string in the JSON launch file in the project  to suit your own location
+after restore *****
 
 The API uses Entity Framework for mapping the underlaying data to the application Entities 
 
