@@ -29,15 +29,21 @@ Note: SortBy is currently restricted to either 'Title' or 'Release_date'
 
 **Search Movie By title**
 https://localhost:7266/api/Movie/Search?title=batman&sortBy=release_date    [sortBy=optional]
+
 **Search Movie By Details**
 https://localhost:7266/api/Movie/Search?details=batman&sortBy=release_date  [sortBy=optional]
+
 **Search Movie by Id (one returned)**
-https://localhost:7266/api/Movie/5                                   
+https://localhost:7266/api/Movie/5   
+
 **Search movies By Genre**
 https://localhost:7266/api/Movie/SearchByGenre/Crime?PageSize=50&sortBy=release_date  [Page,PageSize,sortBy = optional]
+
 **Search movies By Actor**
 https://localhost:7266/api/Movie/SearchByActor/Niro?Page=7&Pagesize=1000&sortBy=title    [Page,PageSize,sortBy = optional]
+
 **Top 100 Movies By Vote**
 https://localhost:7266/api/Movie/Top100ByVote?Genre=Action   		    [Genre=optional]
+
 **Top 100 movies By Popularity**
 https://localhost:7266/api/Movie/Top100ByPopularity
